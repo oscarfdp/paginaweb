@@ -1,0 +1,37 @@
+<?php
+echo "<!DOCTYPE html>\n";
+echo "<html lang=\"es\">\n";
+echo "<head>\n";
+echo "    <meta charset=\"UTF-8\">\n";
+echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n";
+echo "    <title>Club Futbolero</title>\n";
+echo "    <link rel=\"stylesheet\" href=\"styles.css\">\n";
+echo "</head>\n";
+echo "<body>\n";
+echo " \n";
+echo "    <header>\n";
+echo "        <h1>Club Futbolero</h1>\n";
+echo "        <nav>\n";
+echo "            <ul>\n";
+echo "                <li><a href=\"inicio.html\">Inicio</a></li>\n";
+echo "                <li><a href=\"noticias.html\">Noticias</a></li>\n";
+echo "                <li><a href=\"jugadores.html\">Jugadores</a></li>\n";
+echo "                <li><a href=\"partidos.html\">Partidos</a></li>\n";
+echo "                <li><a href=\"contacto.html\">Contacto</a></li>\n";
+echo "                <li><a href=\"clasificacion.html\">clasificacion</a></li>\n";
+echo "            </ul>\n";
+echo "        </nav>\n";
+echo "    </header>\n";
+echo " \n";
+echo "    <section id=\"inicio\" class=\"section\">\n";
+echo "        <h2>Bienvenidos a Club Futbolero</h2>\n";
+echo "        <p>Descubre las últimas noticias, información de jugadores, partidos próximos y más.</p>\n";
+echo "        <img src=\"españa.jpg\" alt=\"Imagen de España\" class=\"hero1-img\">\n";
+echo "    </section>\n";
+echo "    <footer>\n";
+echo "        <p>&copy; 2024 Club Futbolero. Todos los derechos reservados.</p>\n";
+echo "    </footer>\n";
+echo "</body>\n";
+echo "</html>\n";
+echo "\n";
+?>
